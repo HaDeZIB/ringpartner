@@ -1,0 +1,44 @@
+[project]
+name = "ringpartner"
+version = "0.1.0"
+description = "Unofficial Python SDK for the Ring Partner API (Amazon Vision): typed REST client, WHEP live video, webhook verification, signed webhook simulator and fixture replay."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [{ name = "Brandon Garcia" }]
+keywords = ["ring", "ring-appstore", "amazon-vision", "webrtc", "whep", "webhooks"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Home Automation",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = ["httpx>=0.27"]
+
+[project.optional-dependencies]
+whep = ["aiortc>=1.9", "av>=12", "numpy>=1.26"]
+
+[project.scripts]
+ringpartner = "ringpartner.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ringpartner"]
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "respx>=0.21", "ruff>=0.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
