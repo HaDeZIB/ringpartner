@@ -14,6 +14,7 @@ Fixture layout::
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -23,7 +24,13 @@ import httpx
 
 
 def _slug(text: str) -> str:
-    return re.sub(r"[^A-Za-z0-9]+", "_", text).strip("_")[:120]
+    # Ring device ids are ~110 chars, so plain truncation made /status, /capabilities, ...
+    # collide. Keep a readable prefix and disambiguate with a short hash of the full key.
+    readable = re.sub(r"[^A-Za-z0-9]+", "_", text).strip("_")
+    if len(readable) <= 100:
+        return readable
+    digest = hashlib.sha1(text.encode()).hexdigest()[:10]
+    return f"{readable[:40]}_{readable[-48:]}_{digest}"
 
 
 def _key(method: str, path: str, params: dict[str, Any] | None) -> str:
