@@ -1,0 +1,13 @@
+{
+  "errors": [
+    {
+      "id": "c8561a54-a589-462f-9e0f-5da7497da65a",
+      "status": "403",
+      "code": "TIME_RANGE_NOT_AUTHORIZED",
+      "detail": "Requested time range is not within authorized boundaries",
+      "meta": {
+        "timestamp": "2026-10-11T20:49:07Z"
+      }
+    }
+  ]
+}

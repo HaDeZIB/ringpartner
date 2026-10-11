@@ -1,0 +1,11 @@
+{
+  "data": {
+    "type": "users",
+    "id": "ava1.ring.account.ZWN7EEELXLQR7STI3IRNJ6KBKBNUH2BGHQVTLJXXZOMILEAAJXZVNSEB4IC2AX2UF3OHBUUGPTRKXODUPFQPOOEQ3X2KSPT3",
+    "attributes": {
+      "last_name": "Developer",
+      "first_name": "Demo",
+      "email": "developer@example.com"
+    }
+  }
+}

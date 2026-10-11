@@ -11,7 +11,7 @@ Three short, runnable scripts. Run them from this folder after `pip install ring
 
 ```bash
 python webhook_receiver.py --self-test                                  # offline, prints PASS x4
-python list_devices_history.py --replay ../../../fixtures/playground    # offline, recorded Playground responses
+python list_devices_history.py --replay fixtures/playground    # offline, recorded Playground responses
 RING_ACCESS_TOKEN=... python list_devices_history.py --types motion.human,ding
 RING_ACCESS_TOKEN=... python whep_to_opencv.py --seconds 20 --fps 2 --out frames/
 ```

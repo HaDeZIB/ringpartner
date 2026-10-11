@@ -1,0 +1,56 @@
+[
+  {
+    "key": "GET /v1/devices?include=status,capabilities,configurations,location",
+    "status": 200,
+    "file": "responses/GET_v1_devices_include_status_capabilities_configurations_location.json",
+    "content_type": "application/json"
+  },
+  {
+    "key": "GET /v1/users/me",
+    "status": 200,
+    "file": "responses/GET_v1_users_me.json",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "key": "GET /v1/devices/ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ?include=status,capabilities,configurations,location",
+    "status": 200,
+    "file": "responses/GET_v1_devices_ava1_ring_device_D4G5AQMW_lude_status_capabilities_configurations_location_4c9d05ca7e.json",
+    "content_type": "application/json"
+  },
+  {
+    "key": "GET /v1/devices/ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ/status",
+    "status": 200,
+    "file": "responses/GET_v1_devices_ava1_ring_device_D4G5AQMW_PTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ_status_140fd524ba.json",
+    "content_type": "application/json"
+  },
+  {
+    "key": "GET /v1/devices/ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ/capabilities",
+    "status": 200,
+    "file": "responses/GET_v1_devices_ava1_ring_device_D4G5AQMW_TKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ_capabilities_358c623c60.json",
+    "content_type": "application/json"
+  },
+  {
+    "key": "GET /v1/devices/ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ/configurations",
+    "status": 200,
+    "file": "responses/GET_v1_devices_ava1_ring_device_D4G5AQMW_XEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ_configurations_678a0bf427.json",
+    "content_type": "application/json"
+  },
+  {
+    "key": "GET /v1/devices/ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ/location",
+    "status": 200,
+    "file": "responses/GET_v1_devices_ava1_ring_device_D4G5AQMW_LITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ_location_98cd3345c6.json",
+    "content_type": "application/json"
+  },
+  {
+    "key": "GET /v1/history/devices/ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ/events",
+    "status": 200,
+    "file": "responses/GET_v1_history_devices_ava1_ring_device__PTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ_events_4ba4e7ba9f.json",
+    "content_type": "application/json"
+  },
+  {
+    "key": "POST /v1/devices/ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ/media/image/download",
+    "status": 403,
+    "file": "responses/POST_v1_devices_ava1_ring_device_D4G5AQM_2APM7GV6DBPPUQJ265GTJZIWJFQ_media_image_download_3c9ae3e799.json",
+    "content_type": "application/json"
+  }
+]

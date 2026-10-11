@@ -7,7 +7,7 @@ Live (Developer Playground token, valid about 30 minutes):
 
 Offline, against fixtures recorded with ``ringpartner capture-fixtures`` (no token, no network):
 
-    python list_devices_history.py --replay ../../../fixtures/playground
+    python list_devices_history.py --replay fixtures/playground
 
 Notes
 -----

@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "type": "history-events",
+      "id": "ava1.ring.history.event.CUKNC52DSHS4AGXF4QGORIWANAZ3Z2XLFHJTM5QLEXUTLX573QXSQFBZDXNHJEIAOFHYLMMK45Q2BKAF43J6QFILGIJUJXIO",
+      "attributes": {
+        "event_type": "on_demand",
+        "end": 1791751693394,
+        "start": 1791751661653,
+        "is_third_party_reviewed": true
+      },
+      "relationships": {
+        "cv_detections": {
+          "data": []
+        },
+        "source": {
+          "data": {
+            "type": "devices",
+            "id": "ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ"
+          }
+        }
+      },
+      "meta": {
+        "riid": null
+      }
+    },
+    {
+      "type": "history-events",
+      "id": "ava1.ring.history.event.NWPKEQJ5TZFIGTGWLYUX5VMYL7ZL75ASEBBO6LZFASATRGOYK3SWXT7FBO76BYOS2B3CE42DAC4IOQP2STAWP33HZLLIO6DE",
+      "attributes": {
+        "end": 1791751624804,
+        "start": 1791751603045,
+        "is_third_party_reviewed": true,
+        "event_type": "on_demand"
+      },
+      "relationships": {
+        "source": {
+          "data": {
+            "type": "devices",
+            "id": "ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ"
+          }
+        },
+        "cv_detections": {
+          "data": []
+        }
+      },
+      "meta": {
+        "riid": null
+      }
+    },
+    {
+      "type": "history-events",
+      "id": "ava1.ring.history.event.5PF6CFYL42BQY7Q4BOKSENAWOSWWMG3B5I4MKTDIBA3FEQT3DLQAP4UHNTRJBUCCIEKHXHEOACW3CYWHDD67JR5FENTT2BKX",
+      "attributes": {
+        "start": 1791751576174,
+        "is_third_party_reviewed": true,
+        "end": 1791751597933,
+        "event_type": "on_demand"
+      },
+      "relationships": {
+        "cv_detections": {
+          "data": []
+        },
+        "source": {
+          "data": {
+            "type": "devices",
+            "id": "ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ"
+          }
+        }
+      },
+      "meta": {
+        "riid": null
+      }
+    },
+    {
+      "type": "history-events",
+      "id": "ava1.ring.history.event.D2Y6P3YMJ62666HQ2J43LCDO55HDRPZMPIRJ2JMTCCTASXKSOL2TCMYJKDT3EQ2OA3CHHVNB23LAAR65JWWCZVH3RO6HVDNA",
+      "attributes": {
+        "event_type": "on_demand",
+        "is_third_party_reviewed": true,
+        "start": 1791751514140,
+        "end": 1791751553854
+      },
+      "relationships": {
+        "cv_detections": {
+          "data": []
+        },
+        "source": {
+          "data": {
+            "type": "devices",
+            "id": "ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ"
+          }
+        }
+      },
+      "meta": {
+        "riid": null
+      }
+    },
+    {
+      "type": "history-events",
+      "id": "ava1.ring.history.event.VS6QT27UHMDWZJLWCX6RKBRWKTZDBN5YJA43SBMAPWGWTDL6QKESDITVGQE5PX2RXU7GXQKEHXOLBVJESL5D75MU27U3CZIF",
+      "attributes": {
+        "event_type": "on_demand",
+        "start": 1791751442652,
+        "is_third_party_reviewed": true,
+        "end": 1791751482367
+      },
+      "relationships": {
+        "source": {
+          "data": {
+            "type": "devices",
+            "id": "ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ"
+          }
+        },
+        "cv_detections": {
+          "data": []
+        }
+      },
+      "meta": {
+        "riid": null
+      }
+    },
+    {
+      "type": "history-events",
+      "id": "ava1.ring.history.event.DNJGHIOQTEFZHCDKBKOSHEPJJENS2RH6KNELSQNCCBSOKVNBZLGFPRVHJFSNFNX5JJEVHJD6PD422ACZXE3SICFAXETQI553",
+      "attributes": {
+        "end": 1791751431587,
+        "start": 1791751391810,
+        "event_type": "on_demand",
+        "is_third_party_reviewed": true
+      },
+      "relationships": {
+        "cv_detections": {
+          "data": []
+        },
+        "source": {
+          "data": {
+            "type": "devices",
+            "id": "ava1.ring.device.D4G5AQMWVLS6DULLGKD5A6K3MV5K6ZGK4HY6KITVZB7PUKWMGXXUC5WPTLITYTKXEDYNA2APM7GV6DBPPUQJ265GTJZIWJFQ"
+          }
+        }
+      },
+      "meta": {
+        "riid": null
+      }
+    }
+  ]
+}
