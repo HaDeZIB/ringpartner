@@ -27,6 +27,11 @@ Python 3.10 or newer.
 
 ## Quickstart
 
+Runnable scripts are in [`examples/`](examples/): list devices and history with `event_types`
+([`list_devices_history.py`](examples/list_devices_history.py)), WHEP frames into OpenCV
+([`whep_to_opencv.py`](examples/whep_to_opencv.py)), and a stdlib webhook receiver tested with
+the signed simulator ([`webhook_receiver.py`](examples/webhook_receiver.py)).
+
 ### Sync client
 
 ```python
@@ -194,6 +199,9 @@ fails it reports the failure and moves on.
 - **There is no device type field.** A chime is a device whose `audio.supported_actions`
   contains `chime.play` (`Device.is_chime`). Do not parse `image_url`.
 - Multi-camera devices (Ring Elite): pass exactly one `component_id` for snapshots and clips.
+- **Snapshots in the Developer Playground:** a range request (`between=`, or the CLI default of
+  "latest in the last 10 min") returned `403 time range not within authorized boundaries` for us.
+  `at=<history event start>` works.
 
 ## Development
 
