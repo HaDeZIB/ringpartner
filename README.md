@@ -1,5 +1,7 @@
 # ringpartner
 
+[![PyPI](https://img.shields.io/pypi/v/ringpartner)](https://pypi.org/project/ringpartner/) [![Python](https://img.shields.io/pypi/pyversions/ringpartner)](https://pypi.org/project/ringpartner/) [![License](https://img.shields.io/pypi/l/ringpartner)](LICENSE)
+
 Unofficial Python SDK for the **Ring Partner API** (Amazon Vision, `https://api.amazonvision.com`).
 
 Ring publishes REST docs and a browser JavaScript WHEP example, but **no official Partner SDK**.
